@@ -1,0 +1,39 @@
+
+
+body {
+    background-color: lightblue;
+ }
+.destaque{background-color:#fdf5e6;
+         width:30%
+		 min-height: 20px
+		 padding: 15px
+		 margin: 20px
+}
+h1{
+	color: blue
+	font-family: Arial;sans-serif;
+	font-size: 35px
+}
+h2{
+	color: #005f73;
+	font-family: Verdana;
+}
+
+ul{ 
+    list-style-position: inside;
+    color: deeppink
+}
+
+ol{
+	color: darkblue;
+}
+
+(/*
+1-A regra CSS mais difícil de aplicar foi conseguir colocar os marcadores da lista dentro das caixas individuais e garantir que as caixas não ficassem coladas umas às outras. 
+Superei essa dificuldade mudando a propriedade do elemento pai para list-style-position: inside para empurrar os pontos para dentro do fundo creme. Testei diveras vezes e de várias formas, foi apenas com 
+o apoio do google gemini que consegui finalmente por o código corretamente, este indicou-me o erro e eu corrigi
+2-O meu erro mais comum foi esquecer-me de colocar o ponto e vírgula (;) no final de algumas propriedades CSS, como aconteceu na cor de fundo da classe .destaque. Quando testava no
+ browser, a regra seguinte não funcionava e a barra de destaque não aparecia, o que me obrigava a voltar ao Notepad++ para rever o código com atenção e adicionar os pontos e vírgulas em falta.
+ 3-O atributo href serve para inserir uma hiperligação externa, tal como fiz com a Netflix, o que torna super fácil para o utilizador simplesmente clicar no texto e ser redirecionado diretamente 
+ para a plataforma da Netflix
+ */)
